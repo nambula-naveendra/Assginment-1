@@ -1,0 +1,186 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*-----------main-----------*/
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size:bold;
+    font-size:2rem;
+}
+
+.main-heads{
+    color:#f69314;
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    margin-top:20px;
+    margin-left:500px;
+}
+
+
+/*----------title------------*/
+
+.title{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.473)),url("images/bicycle.jpg");    
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
+    
+}
+
+.title-info{
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:1140px;
+    transform:translate(-50%,-50%);
+}
+
+.title-info-text{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    font-size:30px;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    color:blue;
+    margin-left:50px;
+    margin-top:25px; 
+    margin-bottom:0;
+    padding-bottom:0;   
+}
+
+h4:hover{
+    color:rgb(134, 154, 243);   
+}
+
+/*-------products----------*/
+
+
+.products-grid{
+    width:1140px;
+    margin:25px auto;
+}
+
+.products-grid .grid-images img{
+    padding-left:10px;
+    margin-left:15px;
+}
+
+.grid-images{
+    transform:scale(0.9);    
+}
+.grid-images:hover{
+    transform:scale(1.1);
+    opacity:0.9;
+}
+
+.dropdown{
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+/*-------cities-----*/
+
+#cities{
+    
+    background-color: rgb(213, 253, 247);    
+}
+
+.cities-head{
+    color:#e67e22;
+    margin-left:480px;
+    margin-right:auto;
+    margin-top:40px;
+
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.cities-container{
+    margin:80px 0px 0 60px;
+    padding-bottom:80px;
+}
+
+/*-------footer---------*/
+
+footer{
+    background-color:black;
+    margin-bottom:0;
+    margin-top:0;
+    
+}
+
+.footer-links{
+    margin-left:450px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.social{
+    text-decoration:none;
+    float:left;      
+    list-style: none; 
+    margin-left:10px;
+    margin-right:10px; 
+    
+}
+
+.box img{
+    transform:scale(1);
+}
+
+.box img:hover{
+    opacity:0.9;
+    transform:scale(1.1);
+}
+
+/*-----required----*/
+
+.required{
+    margin-left:80px;
+}
+
+#currency-type{
+    margin-left:500px;
+}
